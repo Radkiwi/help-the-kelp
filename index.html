@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help the Kelp</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <nav class="nav">
+      <div class="nav-logo">🌿 Help the Kelp</div>
+      <div class="nav-links">
+        <a href="#why">Why Kelp</a>
+        <a href="#how">How It Works</a>
+        <a href="#partners">Partners</a>
+        <a href="#donate" class="btn btn-nav">Donate</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-badge">Global Kelp Restoration</div>
+      <h1>The Ocean's Forest<br/>Needs Gardeners</h1>
+      <p class="hero-sub">
+        Kelp forests are collapsing worldwide — eaten alive by exploding urchin populations.
+        We're restoring balance, one reef at a time.
+      </p>
+      <div class="hero-cta">
+        <a href="#donate" class="btn btn-primary">Help the Kelp</a>
+        <a href="#why" class="btn btn-ghost">Learn More</a>
+      </div>
+      <div class="hero-counter">
+        <div class="counter-item">
+          <span class="counter-num" id="m2-counter">0</span>
+          <span class="counter-label">m² restored</span>
+        </div>
+        <div class="counter-divider"></div>
+        <div class="counter-item">
+          <span class="counter-num" id="plant-counter">0</span>
+          <span class="counter-label">kelp planted</span>
+        </div>
+        <div class="counter-divider"></div>
+        <div class="counter-item">
+          <span class="counter-num" id="donor-counter">0</span>
+          <span class="counter-label">gardeners</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">↓</div>
+  </header>
+
+  <!-- Why Kelp -->
+  <section id="why" class="section section-dark">
+    <div class="container">
+      <div class="section-tag">Why It Matters</div>
+      <h2>Kelp forests are the rainforests of the sea</h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">🐟</div>
+          <h3>Biodiversity</h3>
+          <p>A single kelp forest supports hundreds of species — fish, invertebrates, marine mammals. Lose the kelp, lose the ecosystem.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌡️</div>
+          <h3>Carbon Sink</h3>
+          <p>Kelp absorbs CO₂ up to 20x faster than land forests per hectare, locking carbon into the deep ocean floor.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌊</div>
+          <h3>Coastal Protection</h3>
+          <p>Dense kelp canopies reduce wave energy, protecting coastlines from erosion and buffering storm surge.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">⚠️</div>
+          <h3>Under Threat</h3>
+          <p>Ocean warming and urchin barrens have wiped out over 90% of kelp in some regions. The forests that remain are fighting to survive.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how" class="section section-light">
+    <div class="container">
+      <div class="section-tag">How It Works</div>
+      <h2>Two ways to be a kelp gardener</h2>
+      <p class="section-sub">Like weeding a garden — sometimes you plant, sometimes you restore balance. Both heal the reef.</p>
+
+      <div class="tracks">
+        <div class="track track-plant">
+          <div class="track-icon">🌿</div>
+          <h3>Plant a Kelp</h3>
+          <p>Sponsor a kelp plant deployed on a reef structure. It will grow up to 30m tall, absorb CO₂, and shelter hundreds of species.</p>
+          <div class="track-price">From <strong>$5</strong> per plant</div>
+          <a href="#donate" class="btn btn-primary">Plant Now</a>
+        </div>
+
+        <div class="track-divider">
+          <span>or</span>
+        </div>
+
+        <div class="track track-restore">
+          <div class="track-icon">⚖️</div>
+          <h3>Restore Balance</h3>
+          <p>Fund urchin removal to rebalance a kelp zone. Remove the urchins, and the kelp comes back on its own — no planting needed.</p>
+          <div class="track-price">From <strong>$10</strong> per m²</div>
+          <a href="#donate" class="btn btn-secondary">Restore Now</a>
+        </div>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-text">
+            <strong>You donate</strong>
+            <span>Choose to plant or restore</span>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-text">
+            <strong>Dive teams act</strong>
+            <span>Expert crews in the water</span>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-text">
+            <strong>Kelp grows</strong>
+            <span>GPS-tracked, photo-verified</span>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-text">
+            <strong>You see it</strong>
+            <span>Before/after updates sent to you</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate -->
+  <section id="donate" class="section section-green">
+    <div class="container">
+      <div class="section-tag">Take Action</div>
+      <h2>Help the Kelp today</h2>
+      <p class="section-sub">Every dollar goes directly to reef restoration through our verified partners.</p>
+
+      <div class="donate-tabs">
+        <button class="tab active" data-tab="plant">🌿 Plant a Kelp</button>
+        <button class="tab" data-tab="restore">⚖️ Restore Balance</button>
+      </div>
+
+      <div class="donate-panel" id="tab-plant">
+        <div class="amount-grid">
+          <button class="amount active" data-amount="5">$5<span>1 plant</span></button>
+          <button class="amount" data-amount="25">$25<span>5 plants</span></button>
+          <button class="amount" data-amount="50">$50<span>10 plants</span></button>
+          <button class="amount" data-amount="100">$100<span>20 plants</span></button>
+        </div>
+        <input class="custom-amount" type="number" placeholder="Custom amount ($)" min="5" />
+        <a href="https://kelpforestalliance.com" target="_blank" class="btn btn-donate">
+          Plant Kelp — <span id="plant-label">$5</span>
+        </a>
+      </div>
+
+      <div class="donate-panel hidden" id="tab-restore">
+        <div class="amount-grid">
+          <button class="amount active" data-amount="10">$10<span>1 m²</span></button>
+          <button class="amount" data-amount="50">$50<span>5 m²</span></button>
+          <button class="amount" data-amount="100">$100<span>10 m²</span></button>
+          <button class="amount" data-amount="250">$250<span>25 m²</span></button>
+        </div>
+        <input class="custom-amount" type="number" placeholder="Custom amount ($)" min="10" />
+        <a href="https://kelpforestalliance.com" target="_blank" class="btn btn-donate">
+          Restore Balance — <span id="restore-label">$10</span>
+        </a>
+      </div>
+
+      <p class="donate-note">Processed securely via Kelp Forest Alliance · Tax-deductible where applicable</p>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section id="partners" class="section section-light">
+    <div class="container">
+      <div class="section-tag">Partners</div>
+      <h2>Backed by ocean experts</h2>
+      <div class="partners-grid">
+        <a href="https://kelpforestalliance.com" target="_blank" class="partner-card">
+          <div class="partner-icon">🌿</div>
+          <strong>Kelp Forest Alliance</strong>
+          <span>Global coordination & science</span>
+        </a>
+        <a href="https://coralgardeners.org" target="_blank" class="partner-card">
+          <div class="partner-icon">🪸</div>
+          <strong>Coral Gardeners</strong>
+          <span>Reef restoration model</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">🌿 Help the Kelp</div>
+      <p>A global kelp restoration campaign. Working with the Kelp Forest Alliance.</p>
+      <div class="footer-links">
+        <a href="https://kelpforestalliance.com" target="_blank">Kelp Forest Alliance</a>
+        <a href="https://coralgardeners.org" target="_blank">Coral Gardeners</a>
+      </div>
+      <p class="footer-small">© 2025 Help the Kelp · Built for the ocean</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
