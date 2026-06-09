@@ -1,237 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Help the Kelp</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelp Helpers — Restore Aotearoa's Underwater Forests</title>
+  <meta name="description" content="Kelp Helpers is restoring New Zealand's kelp forest ecosystems through a circular economy — turning kina waste into products that fund ocean restoration."/>
+  <link rel="stylesheet" href="/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-  <!-- Hero -->
-  <header class="hero">
-    <nav class="nav">
-      <div class="nav-logo">🌿 Help the Kelp</div>
-      <div class="nav-links">
-        <a href="#why">Why Kelp</a>
-        <a href="#how">How It Works</a>
-        <a href="#partners">Partners</a>
-        <a href="#donate" class="btn btn-nav">Donate</a>
-      </div>
-    </nav>
+<div id="nav-placeholder"></div>
 
-    <div class="hero-content">
-      <div class="hero-badge">Global Kelp Restoration</div>
-      <h1>The Ocean's Forest<br/>Needs Gardeners</h1>
-      <p class="hero-sub">
-        Kelp forests are collapsing worldwide — eaten alive by exploding urchin populations.
-        We're restoring balance, one reef at a time.
-      </p>
-      <div class="hero-cta">
-        <a href="#donate" class="btn btn-primary">Help the Kelp</a>
-        <a href="#why" class="btn btn-ghost">Learn More</a>
+<!-- ── HERO ───────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-badge">🌿 Aotearoa New Zealand · Est. 2024</div>
+  <h1>Restoring the Ocean's<br/><span class="accent">Underwater Forests</span></h1>
+  <p class="hero-sub">New Zealand's kelp forests are collapsing — devoured by kina with no predators left to stop them. We're turning that problem into a solution: kina waste becomes products that fund the removals that bring the kelp back.</p>
+  <div class="hero-cta">
+    <a href="https://kelphelpers.com" class="btn btn-primary" target="_blank">Buy a Coaster Set — Fund 1m²</a>
+    <a href="#why" class="btn btn-ghost">Learn More ↓</a>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <span class="stat-num">1M m²</span>
+      <span class="stat-label">restoration goal</span>
+    </div>
+    <div class="hero-stat">
+      <span class="stat-num">43</span>
+      <span class="stat-label">barren sites globally</span>
+    </div>
+    <div class="hero-stat">
+      <span class="stat-num">8</span>
+      <span class="stat-label">active initiatives</span>
+    </div>
+    <div class="hero-stat">
+      <span class="stat-num">$500B</span>
+      <span class="stat-label">kelp's global value/yr</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY KELP ───────────────────────────────────────────── -->
+<section id="why" class="section">
+  <div class="container">
+    <div class="tag">Why It Matters</div>
+    <h2>Kelp forests are the rainforests of the sea</h2>
+    <p class="section-intro">A single kelp forest supports hundreds of species. It absorbs carbon 20× faster than land forests. And in Aotearoa, we've lost vast stretches of it — because the creatures that kept kina in check are gone.</p>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <span class="icon">🐡</span>
+        <h3>Biodiversity Collapse</h3>
+        <p>50% of shallow reef kelp around Little Barrier Island is now barren. Snapper and crayfish — the natural kina predators — have been fished out, and the kina have taken over.</p>
       </div>
-      <div class="hero-counter">
-        <div class="counter-item">
-          <span class="counter-num" id="m2-counter">0</span>
-          <span class="counter-label">m² restored</span>
-        </div>
-        <div class="counter-divider"></div>
-        <div class="counter-item">
-          <span class="counter-num" id="plant-counter">0</span>
-          <span class="counter-label">kelp planted</span>
-        </div>
-        <div class="counter-divider"></div>
-        <div class="counter-item">
-          <span class="counter-num" id="donor-counter">0</span>
-          <span class="counter-label">gardeners</span>
-        </div>
+      <div class="problem-card">
+        <span class="icon">🌡️</span>
+        <h3>Carbon Crisis Underwater</h3>
+        <p>Kelp reefs in the Hauraki Gulf store nearly $8M NZD worth of carbon. Losing them accelerates warming. Restoring them is one of the highest-impact climate actions available.</p>
+      </div>
+      <div class="problem-card">
+        <span class="icon">⚠️</span>
+        <h3>The Kina Barren Problem</h3>
+        <p>Kina graze kelp to bare rock, creating deserts underwater. Barrens are growing at 1–2% per decade. Without intervention, some regions face ecosystem collapse within 15 years.</p>
+      </div>
+      <div class="problem-card">
+        <span class="icon">🌏</span>
+        <h3>A Global Challenge</h3>
+        <p>43 urchin barren hotspots exist worldwide. Australia, Japan, California, Norway — the same crisis, different species. Kelp Helpers' model is designed to scale.</p>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="hero-scroll">↓</div>
-  </header>
-
-  <!-- Why Kelp -->
-  <section id="why" class="section section-dark">
-    <div class="container">
-      <div class="section-tag">Why It Matters</div>
-      <h2>Kelp forests are the rainforests of the sea</h2>
-      <div class="why-grid">
-        <div class="why-card">
-          <div class="why-icon">🐟</div>
-          <h3>Biodiversity</h3>
-          <p>A single kelp forest supports hundreds of species — fish, invertebrates, marine mammals. Lose the kelp, lose the ecosystem.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-icon">🌡️</div>
-          <h3>Carbon Sink</h3>
-          <p>Kelp absorbs CO₂ up to 20x faster than land forests per hectare, locking carbon into the deep ocean floor.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-icon">🌊</div>
-          <h3>Coastal Protection</h3>
-          <p>Dense kelp canopies reduce wave energy, protecting coastlines from erosion and buffering storm surge.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-icon">⚠️</div>
-          <h3>Under Threat</h3>
-          <p>Ocean warming and urchin barrens have wiped out over 90% of kelp in some regions. The forests that remain are fighting to survive.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- How It Works -->
-  <section id="how" class="section section-light">
-    <div class="container">
-      <div class="section-tag">How It Works</div>
-      <h2>Two ways to be a kelp gardener</h2>
-      <p class="section-sub">Like weeding a garden — sometimes you plant, sometimes you restore balance. Both heal the reef.</p>
-
-      <div class="tracks">
-        <div class="track track-plant">
-          <div class="track-icon">🌿</div>
-          <h3>Plant a Kelp</h3>
-          <p>Sponsor a kelp plant deployed on a reef structure. It will grow up to 30m tall, absorb CO₂, and shelter hundreds of species.</p>
-          <div class="track-price">From <strong>$5</strong> per plant</div>
-          <a href="#donate" class="btn btn-primary">Plant Now</a>
-        </div>
-
-        <div class="track-divider">
-          <span>or</span>
-        </div>
-
-        <div class="track track-restore">
-          <div class="track-icon">⚖️</div>
-          <h3>Restore Balance</h3>
-          <p>Fund urchin removal to rebalance a kelp zone. Remove the urchins, and the kelp comes back on its own — no planting needed.</p>
-          <div class="track-price">From <strong>$10</strong> per m²</div>
-          <a href="#donate" class="btn btn-secondary">Restore Now</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The Restoration Process -->
-  <section id="process" class="section section-dark">
-    <div class="container">
-      <div class="section-tag">From Donation to Forest</div>
-      <h2>The restoration process</h2>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">1</div>
-          <div class="step-text">
-            <strong>You donate</strong>
-            <span>Choose to plant or restore</span>
+<!-- ── THE CIRCULAR ECONOMY ───────────────────────────────── -->
+<section id="how" class="section" style="background: var(--ocean-mid);">
+  <div class="container">
+    <div class="tag">The Solution</div>
+    <h2>A circular economy that heals the ocean</h2>
+    <p class="section-intro">We don't just remove kina — we extract value from them, so the operation can fund itself. Every coaster sold, every tonne of concrete poured, funds the next removal.</p>
+    <div class="circular-wrap">
+      <div class="circular-steps">
+        <div class="circ-step">
+          <div class="circ-step-icon">🦔</div>
+          <div class="circ-step-text">
+            <h4>Kina are removed from barrens</h4>
+            <p>Trained divers work consented barren areas, collecting excess kina. Each diver removes ~600kg per day.</p>
           </div>
         </div>
-        <div class="step-arrow">→</div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <div class="step-text">
-            <strong>Dive teams act</strong>
-            <span>Expert crews in the water</span>
+        <div class="circ-step">
+          <div class="circ-step-icon">🏭</div>
+          <div class="circ-step-text">
+            <h4>Waste becomes products</h4>
+            <p>Shells and spines go to KiwiKrete (concrete) and Calcara (ceramics). Nothing is wasted — the "problem" becomes the raw material.</p>
           </div>
         </div>
-        <div class="step-arrow">→</div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <div class="step-text">
-            <strong>Kelp grows</strong>
-            <span>GPS-tracked, photo-verified</span>
+        <div class="circ-step">
+          <div class="circ-step-icon">💰</div>
+          <div class="circ-step-text">
+            <h4>Products generate revenue</h4>
+            <p>Restoration Coaster Sets, KinaKrete sculptures, ceramic surfaces — each sale directly funds more removals.</p>
           </div>
         </div>
-        <div class="step-arrow">→</div>
-        <div class="step">
-          <div class="step-num">4</div>
-          <div class="step-text">
-            <strong>You see it</strong>
-            <span>Before/after updates sent to you</span>
+        <div class="circ-step">
+          <div class="circ-step-icon">🌿</div>
+          <div class="circ-step-text">
+            <h4>Kelp returns — naturally</h4>
+            <p>Remove the kina, and kelp comes back on its own within 2 years. No planting needed. The ecosystem heals.</p>
+          </div>
+        </div>
+        <div class="circ-step">
+          <div class="circ-step-icon">📡</div>
+          <div class="circ-step-text">
+            <h4>Pingo maps the recovery</h4>
+            <p>Autonomous drones track kelp health and generate natural capital data — unlocking biodiversity credit financing at scale.</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Donate -->
-  <section id="donate" class="section section-green">
-    <div class="container">
-      <div class="section-tag">Take Action</div>
-      <h2>Help the Kelp today</h2>
-      <p class="section-sub">Every dollar goes directly to reef restoration through our verified partners.</p>
-
-      <div class="donate-tabs">
-        <button class="tab active" data-tab="plant">🌿 Plant a Kelp</button>
-        <button class="tab" data-tab="restore">⚖️ Restore Balance</button>
-      </div>
-
-      <div class="donate-panel" id="tab-plant">
-        <div class="amount-grid">
-          <button class="amount active" data-amount="5">$5<span>1 plant</span></button>
-          <button class="amount" data-amount="25">$25<span>5 plants</span></button>
-          <button class="amount" data-amount="50">$50<span>10 plants</span></button>
-          <button class="amount" data-amount="100">$100<span>20 plants</span></button>
+      <div class="circular-visual">
+        <h3>The Virtuous Cycle</h3>
+        <div class="cycle-item">
+          <span class="ci-icon">🦔</span>
+          <div class="ci-text">
+            <strong>Kina Removals</strong>
+            <span>Barrens restored by trained divers</span>
+          </div>
         </div>
-        <input class="custom-amount" type="number" placeholder="Custom amount ($)" min="5" />
-        <a href="https://kelpforestalliance.com" target="_blank" class="btn btn-donate">
-          Plant Kelp — <span id="plant-label">$5</span>
-        </a>
-      </div>
-
-      <div class="donate-panel hidden" id="tab-restore">
-        <div class="amount-grid">
-          <button class="amount active" data-amount="10">$10<span>1 m²</span></button>
-          <button class="amount" data-amount="50">$50<span>5 m²</span></button>
-          <button class="amount" data-amount="100">$100<span>10 m²</span></button>
-          <button class="amount" data-amount="250">$250<span>25 m²</span></button>
+        <span class="cycle-arrow">↓</span>
+        <div class="cycle-item">
+          <span class="ci-icon">🏗️</span>
+          <div class="ci-text">
+            <strong>KiwiKrete + Calcara</strong>
+            <span>Shells → concrete and ceramics</span>
+          </div>
         </div>
-        <input class="custom-amount" type="number" placeholder="Custom amount ($)" min="10" />
-        <a href="https://kelpforestalliance.com" target="_blank" class="btn btn-donate">
-          Restore Balance — <span id="restore-label">$10</span>
-        </a>
-      </div>
-
-      <p class="donate-note">Processed securely via Kelp Forest Alliance · Tax-deductible where applicable</p>
-    </div>
-  </section>
-
-  <!-- Partners -->
-  <section id="partners" class="section section-light">
-    <div class="container">
-      <div class="section-tag">Partners</div>
-      <h2>Backing by ocean experts coming soon</h2>
-      <div class="partners-grid">
-        <a href="https://kelpforestalliance.com" target="_blank" class="partner-card">
-          <div class="partner-icon">🌿</div>
-          <strong>Kelp Forest Alliance</strong>
-          <span>Global coordination & science</span>
-        </a>
-        <a href="https://coralgardeners.org" target="_blank" class="partner-card">
-          <div class="partner-icon">🪸</div>
-          <strong>Coral Gardeners</strong>
-          <span>Reef restoration model</span>
-        </a>
+        <span class="cycle-arrow">↓</span>
+        <div class="cycle-item">
+          <span class="ci-icon">🛒</span>
+          <div class="ci-text">
+            <strong>Product Sales</strong>
+            <span>Revenue funds the next removal</span>
+          </div>
+        </div>
+        <span class="cycle-arrow">↓</span>
+        <div class="cycle-item">
+          <span class="ci-icon">📡</span>
+          <div class="ci-text">
+            <strong>Pingo Maps Recovery</strong>
+            <span>Data unlocks natural capital credits</span>
+          </div>
+        </div>
+        <span class="cycle-arrow">↓</span>
+        <div class="cycle-item">
+          <span class="ci-icon">🌿</span>
+          <div class="ci-text">
+            <strong>Kelp Returns</strong>
+            <span>Ecosystem recovers within 2 years</span>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-logo">🌿 Help the Kelp</div>
-      <p>A global kelp restoration campaign. Working with the Kelp Forest Alliance.</p>
-      <div class="footer-links">
-        <a href="https://kelpforestalliance.com" target="_blank">Kelp Forest Alliance</a>
-        <a href="https://coralgardeners.org" target="_blank">Coral Gardeners</a>
-      </div>
-      <p class="footer-small">© 2026 Help the Kelp · Built for the ocean</p>
+<!-- ── INITIATIVES ────────────────────────────────────────── -->
+<section id="initiatives" class="section">
+  <div class="container">
+    <div class="tag">Our Initiatives</div>
+    <h2>Eight initiatives. One mission.</h2>
+    <p class="section-intro">Each initiative is a distinct entity designed to work together — roots that generate revenue, leaves that engage the world, and a charitable trust at the core holding it all together.</p>
+
+    <div class="initiatives-grid">
+
+      <!-- Kelp Helpers Trust -->
+      <a href="/" class="initiative-card acc-trust">
+        <div class="ic-top">
+          <span class="ic-badge">Charitable Trust · Core</span>
+          <span class="ic-arrow">→</span>
+        </div>
+        <div class="ic-name">🌿 Kelp Helpers</div>
+        <div class="ic-desc">The connective trust. Holds the brand and story, raises awareness, advocates for restoration, and coordinates across all entities. Funded by public donations, grants, and natural capital credits.</div>
+        <div class="ic-progress">
+          <div class="ic-progress-label"><span>Progress to MVP</span><span>20%</span></div>
+          <div class="progress-bar"><div class="progress-fill" data-width="20"></div></div>
+        </div>
+        <div class="ic-footer">
+          <span>Trunk of the tree</span>
+          <span class="ic-link">You're here</span>
+        </div>
+      </a>
+
+      <!-- KiwiKrete -->
+      <a href="/kiwikrete" class="initiative-card acc-kiwikrete">
+        <div class="ic-top">
+          <span class="ic-badge">Material · Roots</span>
+          <span class="ic-arrow">→</span>
+        </div>
+        <div class="ic-name">🗿 KiwiKrete</div>
+        <div class="ic-desc">Transforms kina waste shells and spines into decorative and structural concrete products. From Restoration Coaster Sets to public art and architecture — ocean-positive concrete.</div>
+        <div class="ic-progress">
+          <div class="ic-progress-label"><span>Progress to MVP</span><span>80%</span></div>
+          <div class="progress-bar"><div class="progress-fill" data-width="80"></div></div>
+        </div>
+        <div class="ic-footer">
+          <span>Lead revenue entity</span>
+          <span class="ic-link">Learn more →</span>
+        </div>
+      </a>
+
+      <!-- Calcara -->
+      <a href="/calcara" class="initiative-card acc-calcara">
+        <div class="ic-top">
+          <span class="ic-badge">Material · Roots</span>
+          <span class="ic-arrow">→</span>
+        </div>
+        <div class="ic-name">☕ Calcara</div>
+        <div class="ic-desc">Transforms shell and seaweed byproducts into high-value ceramic and marble materials — a sustainable replacement for engineered stone benchtops and food-grade porcelain.</div>
+        <div class="ic-progress">
+          <div class="ic-progress-label"><span>Progress to MVP</span><span>5%</span></div>
+          <div class="progress-bar"><div class="progress-fill" data-width="5"></div></div>
+        </div>
+        <div class="ic-footer">
+          <span>Engineered stone alternative</span>
+          <span class="ic-link">Learn more →</span>
+        </div>
+      </a>
+
+      <!-- Removals -->
+      <a href="/removals" class="initiative-card acc-removals">
+        <div class="ic-top">
+          <span class="ic-badge">Logistics · Roots</span>
+          <span class="ic-arrow">→</span>
+        </div>
+        <div class="ic-name">🤿 Removals</div>
+        <div class="ic-desc">A regenerative logistics service removing invasive kina and fan worm from barrens. Redistributes valuable materials into the circular economy and supports local restoration.</div>
+        <div class="ic-progress">
+          <div class="ic-progress-label"><span>Progress to MVP</span><span>5%</span></div>
+          <div class="progress-bar"><div class="progress-fill" data-width="5"></div></div>
+        </div>
+        <div class="ic-footer">
+          <span>The engine of restoration</span>
+          <span class="ic-link">Learn more →</span>
+        </div>
+      </a>
+
+      <!-- Pingo -->
+      <a href="/pingo" class="initiative-card acc-pingo">
+        <div class="ic-top">
+          <span class="ic-badge">Technology · Leaves</span>
+          <span class="ic-arrow">→</span>
+        </div>
+        <div class="ic-name">🐧 Pingo</div>
+        <div class="ic-desc">A modular multi-robot mapping platform using autonomous surface and subsurface drones, AR, and biodiversity tools to make ocean degradation visible — and fundable.</div>
+        <div class="ic-progress">
+          <div class="ic-progress-label"><span>Progress to MVP</span><span>5%</span></div>
+          <div class="progress-bar"><div class="progress-fill" data-width="5"></div></div>
+        </div>
+        <div class="ic-footer">
+          <span>Budget: $500,000</span>
+          <span class="ic-link">Learn more →</span>
+        </div>
+      </a>
+
+      <!-- Seafoo -->
+      <a href="/seafoo" class="initiative-card acc-seafoo">
+        <div class="ic-top">
+          <span class="ic-badge">Food · Leaves</span>
+          <span class="ic-arrow">→</span>
+        </div>
+        <div class="ic-name">🍄 Seafoo™</div>
+        <div class="ic-desc">A next-gen seafood alternative made from NZ-grown mycelium and marine algae oils — rich in omega-3s, designed for chefs, and built to heal the ocean with every ocean-positive bite.</div>
+        <div class="ic-progress">
+          <div class="ic-progress-label"><span>Progress to MVP</span><span>10%</span></div>
+          <div class="progress-bar"><div class="progress-fill" data-width="10"></div></div>
+        </div>
+        <div class="ic-footer">
+          <span>Plant-based protein alternative</span>
+          <span class="ic-link">Learn more →</span>
+        </div>
+      </a>
+
+      <!-- Reef Rescue -->
+      <a href="/reef-rescue" class="initiative-card acc-reef">
+        <div class="ic-top">
+          <span class="ic-badge">Gaming · Leaves</span>
+          <span class="ic-arrow">→</span>
+        </div>
+        <div class="ic-name">🕹️ Reef Rescue</div>
+        <div class="ic-desc">An educational game and real-world restoration initiative empowering communities to design, fund, and deploy artificial reefs — bringing people on the journey through playful action.</div>
+        <div class="ic-progress">
+          <div class="ic-progress-label"><span>Progress to MVP</span><span>10%</span></div>
+          <div class="progress-bar"><div class="progress-fill" data-width="10"></div></div>
+        </div>
+        <div class="ic-footer">
+          <span>Budget: ~$20,000</span>
+          <span class="ic-link">Learn more →</span>
+        </div>
+      </a>
+
+      <!-- SeaSniper -->
+      <a href="/seasniper" class="initiative-card acc-seasniper">
+        <div class="ic-top">
+          <span class="ic-badge">Gaming · Leaves</span>
+          <span class="ic-arrow">→</span>
+        </div>
+        <div class="ic-name">🎯 SeaSniper</div>
+        <div class="ic-desc">A gamified spearfishing learning journey that redirects apex predator hunters toward restoration-positive targets — turning passion for the ocean into ocean protection.</div>
+        <div class="ic-progress">
+          <div class="ic-progress-label"><span>Progress to MVP</span><span>5%</span></div>
+          <div class="progress-bar"><div class="progress-fill" data-width="5"></div></div>
+        </div>
+        <div class="ic-footer">
+          <span>Spearos for kelp</span>
+          <span class="ic-link">Learn more →</span>
+        </div>
+      </a>
+
     </div>
-  </footer>
+  </div>
+</section>
 
-  <script src="main.js"></script>
+<!-- ── IMPACT ─────────────────────────────────────────────── -->
+<section id="impact" class="section" style="background: var(--ocean-mid);">
+  <div class="container">
+    <div class="tag">Progress & Science</div>
+    <h2>The numbers that drive us</h2>
+    <p class="section-intro">Backed by University of Auckland research, Live Ocean Foundation science, and international kelp restoration data.</p>
+    <div class="impact-grid">
+      <div class="impact-item">
+        <span class="impact-num">2 yrs</span>
+        <p>for kelp to return after kina removal (Dr Nick Shears, UoA)</p>
+      </div>
+      <div class="impact-item">
+        <span class="impact-num">20–30</span>
+        <p>years of regeneration time saved by active kina removal</p>
+      </div>
+      <div class="impact-item">
+        <span class="impact-num">50%</span>
+        <p>of Little Barrier Island's shallow reef is now kina barren</p>
+      </div>
+      <div class="impact-item">
+        <span class="impact-num">$8M NZD</span>
+        <p>carbon storage value of Hauraki Gulf kelp reefs (Dr Caitlin Blain, UoA)</p>
+      </div>
+      <div class="impact-item">
+        <span class="impact-num">20×</span>
+        <p>more effective than land forests at capturing carbon per hectare</p>
+      </div>
+      <div class="impact-item">
+        <span class="impact-num">$500B USD</span>
+        <p>estimated global value of kelp forests per year</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── JOIN ───────────────────────────────────────────────── -->
+<section id="join" class="section">
+  <div class="container">
+    <div class="cta-banner">
+      <h2>Join the restoration</h2>
+      <p>Buy a Restoration Coaster Set and fund 1m² of kina removal. Each set carries a QR code linking to the living story of the kelp forest you helped restore.</p>
+      <a href="https://kelphelpers.com" class="cta-btn-white" target="_blank">Shop Restoration Coasters →</a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="/shared.js"></script>
 </body>
 </html>

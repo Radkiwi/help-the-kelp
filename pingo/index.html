@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pingo — Kelp Helpers</title>
+  <meta name="description" content="Pingo is a modular autonomous robot mapping platform that makes ocean degradation visible and fundable — the data engine for kelp forest restoration."/>
+  <link rel="stylesheet" href="/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <style>:root { --entity-glow: rgba(167,139,250,0.2); }</style>
+</head>
+<body class="acc-pingo">
+<div id="nav-placeholder"></div>
+
+<section class="entity-hero">
+  <div class="container">
+    <div class="entity-breadcrumb"><a href="/">Kelp Helpers</a> <span>/</span> Pingo</div>
+    <span class="entity-tag-label">🐧 Mapping & Technology · Leaves of the Tree</span>
+    <h1>Pingo</h1>
+    <p class="entity-tagline">A modular multi-robot mapping platform using autonomous surface and subsurface drones, AR, and biodiversity tools to enable scalable kelp forest restoration — making ocean degradation visible and actionable.</p>
+    <div class="entity-meta">
+      <span class="e-badge">5% to MVP</span>
+      <div class="e-progress-wrap">
+        <div class="bar"><div class="fill" style="width:5%"></div></div>
+        <strong>Early Stage</strong>
+      </div>
+      <span class="e-badge">Budget: $500,000</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="tag">The Problem & Solution</div>
+    <h2>You can't restore what you can't see</h2>
+    <div class="ps-grid">
+      <div class="ps-card problem">
+        <div class="ps-label">Problems We're Solving</div>
+        <div class="ps-items">
+          <div class="ps-item"><div class="pi-num">1</div><p>Mapping kelp forests is expensive — current methods require costly manual surveys and specialised research vessels</p></div>
+          <div class="ps-item"><div class="pi-num">2</div><p>Water quality and depth can affect data capture — turbidity limits camera accuracy, depth limits tethered systems</p></div>
+          <div class="ps-item"><div class="pi-num">3</div><p>Manual collection and processing of biodiversity data is too slow and expensive for large-scale natural capital financing</p></div>
+        </div>
+      </div>
+      <div class="ps-card solution">
+        <div class="ps-label">How Pingo Solves It</div>
+        <div class="ps-items">
+          <div class="ps-item"><div class="pi-num">1</div><p>Autonomous surface vessels (USVs) reduce the cost of ocean mapping by 10–100× versus manual survey methods</p></div>
+          <div class="ps-item"><div class="pi-num">2</div><p>Subsurface ROVs complement surface vessels — together they capture data at depth and in turbid conditions</p></div>
+          <div class="ps-item"><div class="pi-num">3</div><p>YOLO V8 AI image recognition and eDNA integration automate species identification and biodiversity scoring</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: var(--ocean-mid);">
+  <div class="container">
+    <div class="tag">Technology Stack</div>
+    <h2>Robots rule the Gulf</h2>
+    <div class="rocks-grid">
+      <div class="rock-card"><div class="rock-num">🚢</div><div class="rock-text"><h4>Autonomous Surface Vessels (USVs)</h4><p>Self-navigating boats equipped with underwater cameras, sonar, and GPS. Map kelp forest cover and kina barren extent at scale. Partners: Boxfish Robotics, MAKI (Jeffrey To).</p></div></div>
+      <div class="rock-card"><div class="rock-num">🤖</div><div class="rock-text"><h4>Subsurface ROVs</h4><p>BlueRobotics BlueROV2 and custom systems for deeper surveys. Captures detailed reef imagery for AI classification. Tethered for real-time control; untethered AUV on roadmap.</p></div></div>
+      <div class="rock-card"><div class="rock-num">🧠</div><div class="rock-text"><h4>AI Image Recognition</h4><p>YOLO V8 framework being evaluated for automated kina detection and kelp classification. Training on underwater imagery collected from Hauraki Gulf survey sites.</p></div></div>
+      <div class="rock-card"><div class="rock-num">🗺️</div><div class="rock-text"><h4>ESRI ArcGIS Platform</h4><p>Interactive mapping platform built on ArcGIS — inspired by marinepests.nz. Community contributions from hapu, dive groups, and citizen scientists. Near-real-time kelp health tracking.</p></div></div>
+      <div class="rock-card"><div class="rock-num">🔬</div><div class="rock-text"><h4>eDNA Integration</h4><p>Environmental DNA sampling from water columns to detect species presence. Combined with visual surveys for comprehensive biodiversity assessment.</p></div></div>
+      <div class="rock-card"><div class="rock-num">🥽</div><div class="rock-text"><h4>Augmented Reality</h4><p>AR overlays projected onto water surfaces showing kelp barren extent. Educational applications via mobile, tablets, or AR glasses. Makes the invisible crisis visible.</p></div></div>
+    </div>
+    <div style="margin-top:48px">
+      <div class="tag">Technology Partners</div>
+      <div class="partners-strip">
+        <span class="partner-pill">🤖 Boxfish Robotics</span>
+        <span class="partner-pill">🚢 MAKI (Jeffrey To)</span>
+        <span class="partner-pill">🔬 New Dexterity Labs (UoA)</span>
+        <span class="partner-pill">🌊 EnviroStrat</span>
+        <span class="partner-pill">🏛️ DOC</span>
+        <span class="partner-pill">🗺️ ESRI ArcGIS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="tag">Roadmap</div>
+    <h2>From concept to ocean intelligence</h2>
+    <div class="rocks-grid">
+      <div class="rock-card"><div class="rock-num">1</div><div class="rock-text"><h4>Define & Identify Kina Barren Areas</h4><p>First field season: visual mapping of priority sites in the Hauraki Gulf with Nelson Smith. Q2 2026 target.</p></div></div>
+      <div class="rock-card"><div class="rock-num">2</div><div class="rock-text"><h4>Hectare-Based Mapping System</h4><p>Develop a scalable, hectare-resolution mapping framework for tracking restoration progress — the data layer for the Sponsor a Hectare initiative.</p></div></div>
+      <div class="rock-card"><div class="rock-num">3</div><div class="rock-text"><h4>Little Barrier / Hauraki Gulf</h4><p>Full survey of priority restoration zones. Ground-truthed AI classification of kelp vs barren vs recovery states.</p></div></div>
+      <div class="rock-card"><div class="rock-num">4</div><div class="rock-text"><h4>Kelp Health Dashboard</h4><p>Public-facing web interface showing kelp health and biodiversity metrics. Near-real-time, community-contributed data. Designed to support natural capital credit applications.</p></div></div>
+      <div class="rock-card"><div class="rock-num">5</div><div class="rock-text"><h4>HPA Monitoring Infrastructure</h4><p>KinaKrete Marker Poles as HPA boundary markers — fitted with solar panels, surveillance cameras, and AR markers. $1.2M government monitoring budget earmarked.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: var(--ocean-mid);">
+  <div class="container">
+    <div class="cta-banner">
+      <h2>Help us map the ocean</h2>
+      <p>Pingo needs $500,000 to reach MVP. We're seeking investment from natural capital credit funds, MPI, and impact investors who understand that you can't protect what you can't see.</p>
+      <a href="mailto:hello@kelphelpers.com" class="cta-btn-white">Discuss Investment →</a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="/shared.js"></script>
+</body>
+</html>
