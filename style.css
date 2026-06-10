@@ -122,7 +122,8 @@ p  { color: var(--text-muted); }
 .acc-pingo     { --acc: #a78bfa; --acc-bg: rgba(167,139,250,0.12); }
 .acc-seafoo    { --acc: #34d399; --acc-bg: rgba(52,211,153,0.12); }
 .acc-reef      { --acc: #f472b6; --acc-bg: rgba(244,114,182,0.12); }
-.acc-seasniper { --acc: #818cf8; --acc-bg: rgba(129,140,248,0.12); }
+.acc-seasniper  { --acc: #818cf8; --acc-bg: rgba(129,140,248,0.12); }
+.acc-surfshacks { --acc: #f59e0b; --acc-bg: rgba(245,158,11,0.12); }
 
 .ic-badge { background: var(--acc-bg); color: var(--acc); }
 .ic-footer .ic-link { color: var(--acc); }
